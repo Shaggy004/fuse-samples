@@ -33,8 +33,7 @@
 						</c:PlotBar>
 					</c:PlotData>
 				</Panel>
-				<c:PlotTicks Axis="Y" StrokeWidth="1" StrokeColor="#DDD" Row="0" Column="1">
-				</c:PlotTicks>
+				<c:PlotTicks Axis="Y" StrokeWidth="1" StrokeColor="#DDD" Row="0" Column="1" />
 			</c:Plot>
 		</DockPanel>
 	</Panel>
