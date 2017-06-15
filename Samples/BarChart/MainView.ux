@@ -27,7 +27,9 @@
 					<c:PlotData>
 						<c:PlotArea YStepSize="20"/>
 						<c:PlotBar>
-							<Rectangle Color="#f58b4d" Height="100%" Alignment="Bottom" Margin="20,0,20,0"/>
+							<Rectangle Color="#f58b4d" Height="100%" Alignment="Bottom" Margin="20,0,20,0">
+								<Shadow />
+							</Rectangle>
 						</c:PlotBar>
 					</c:PlotData>
 				</Panel>
