@@ -18,9 +18,7 @@ Slices are drawn using `PlotWedge`, like so:
 
 	<c:PlotData >
 		<Panel ux:Name="me" Width="{Plot data.object}.sizePercent" Height="{Plot data.object}.sizePercent">
-			<c:PlotWedge ux:Name="meCircle" Color="(((1 - {{Plot data.object}.size/100}) * #b0b08C) + (({{Plot data.object}.size/100}) * #FCFEFE))" HitTestMode="LocalVisual" >
-			    <Shadow Size="30" Distance="15" Mode="PerPixel"/>
-			</c:PlotWedge>
+			<c:PlotWedge ux:Name="meCircle" Color="(((1 - {{Plot data.object}.size/100}) * #b0b08C) + (({{Plot data.object}.size/100}) * #FCFEFE))" HitTestMode="LocalVisual" />
 		</Panel>
 	</c:PlotData>
 
