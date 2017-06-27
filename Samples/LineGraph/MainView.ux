@@ -18,34 +18,34 @@
 					function Item( value) {
 					this.value = value
 					}
-					
+
 					exports.values1 = Observable(
-					new Item( 1800 ),
-					new Item( 2300 ),
-					new Item( 3200 ),
-					new Item( 2000 ),
-					new Item( 2500 ),
-					new Item( 1800 )
+						new Item( 1200 ),
+						new Item( 2000 ),
+						new Item( 1000 ),
+						new Item( 1400 ),
+						new Item( 1400 ),
+						new Item( 1000 )
 					);
-
+					
 					exports.values2 = Observable(
-					new Item( 2400 ),
-					new Item( 3000 ),
-					new Item( 3900 ),
-					new Item( 2200 ),
-					new Item( 2900 ),
-					new Item( 1900 )
+						new Item( 1800 ),
+						new Item( 2300 ),
+						new Item( 3200 ),
+						new Item( 2000 ),
+						new Item( 2500 ),
+						new Item( 1800 )
 					);
-
 
 					exports.values3 = Observable(
-					new Item( 1200 ),
-					new Item( 2000 ),
-					new Item( 1000 ),
-					new Item( 1400 ),
-					new Item( 1400 ),
-					new Item( 1000 )
+						new Item( 2400 ),
+						new Item( 3000 ),
+						new Item( 3900 ),
+						new Item( 2200 ),
+						new Item( 2900 ),
+						new Item( 1900 )
 					);
+
 				</JavaScript>
 				<Panel ux:Class="MyPlot">
 					<int ux:Property="SeriesIndex" />
@@ -82,10 +82,9 @@
 						<c:PlotTicks Axis="Y" StrokeWidth="1" StrokeColor="#d0d0d019" />
 					</Panel> 
 
-					<MyPlot Row="0" MainColor="#48B66A" BackgroundColor="#213536" SeriesIndex="2" />
-
-					<MyPlot Row="0" MainColor="#E6175D" BackgroundColor="#322B38" SeriesIndex="0" />
-					<MyPlot Row="0" MainColor="#FF993B" BackgroundColor="#303334" SeriesIndex="1" />
+					<MyPlot Row="0" MainColor="#48B66A" BackgroundColor="#213536" SeriesIndex="0" />
+					<MyPlot Row="0" MainColor="#E6175D" BackgroundColor="#322B38" SeriesIndex="1" />
+					<MyPlot Row="0" MainColor="#FF993B" BackgroundColor="#303334" SeriesIndex="2" />
 
 				</c:Plot>
 			</Panel>

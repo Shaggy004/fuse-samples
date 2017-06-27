@@ -10,7 +10,14 @@ In order to use the library, you have to install it. This is done by running the
 uno install Fuse.Charting
 ```
 
-With that done, you should be all set.
+With that done, you should be all set. Remember to include `Fuse.Charting` package in your unoproj file, like it is done in this example:
+
+```
+"Packages": [
+    [...]
+    "Fuse.Charting"
+  ],
+```
 
 ## The bars
 
@@ -27,7 +34,7 @@ Bars are rendered using Rectangles, like so:
 		</c:PlotData>
 	</Panel>
 
-The `Panel` is there for layout-reasons, to make sure the rectangles are in the correct grid, as the `Plot` uses a `GridLayout`. Also worth noting is `PlotArea`, which is used to configure certain aspects of the `PlotData` behavior.
+The `Panel` is there for layout-reasons, to make sure the rectangles are in the correct grid, as the `Plot` uses a `GridLayout`. Also worth noting is `PlotArea`, which is used to configure certain aspects of the `PlotData` behavior. In this example, `PlotArea` is used to define the maximum number of steps on the y-axis, which is 20 in this case.
 
 ## Various cosmetics
 
